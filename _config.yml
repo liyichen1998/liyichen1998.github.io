@@ -23,7 +23,7 @@ subtitle                 : #"Ph.D. Candidate in Computer Science | Imitation Lea
 name                     : "Yichen Li"
 description              : "The personal website of Yichen Li, Ph.D. candidate in Computer Science at the University of Arizona, specializing in Imitation Learning, Machine Learning Theory, and Reinforcement Learning."
 url                      : "https://liyichen1998.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "liyichen1998/minimal-mistakes-yl"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/tri.png"
