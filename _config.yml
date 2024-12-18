@@ -18,15 +18,15 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Yichen Li"
-title_separator          : "-"
-subtitle                 : "Ph.D. Candidate in Computer Science | Imitation Learning and Interactive Learning Theory"
+title_separator          : #"-"
+subtitle                 : #"Ph.D. Candidate in Computer Science | Imitation Learning and Interactive Learning Theory"
 name                     : "Yichen Li"
 description              : "The personal website of Yichen Li, Ph.D. candidate in Computer Science at the University of Arizona, specializing in Imitation Learning, Machine Learning Theory, and Reinforcement Learning."
 url                      : "https://liyichen1998.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "liyichen1998/minimal-mistakes-yl"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/profile.jpg"
+logo                     : "/assets/images/tri.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -110,30 +110,28 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-# remove author 
-show_author: false
-author_profile: false
+
 # Site Author
 
 author:
   name             : "Yichen Li"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "Ph.D. candidate specializing in Imitation Learning, Machine Learning Theory, and Reinforcement Learning."
+  bio              : "Ph.D. Candidate     Imitation Learning, Machine Learning Theory, and Reinforcement Learning."
   location         : "Tucson, AZ, USA"
   email            : "yichenl@arizona.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:yichenl@arizona.edu"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:yichenl@arizona.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/liyichen1998" 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https:www.linkedin.com/in/yichen-li-14004a20b/" # Replace 'your-profile'
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   # url: "mailto:your.name@email.com"
+      url: "https:www.linkedin.com/in/yichen-li-14004a20b/" 
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=4yb3MhsAAAAJ&hl=zh-CN&oi=sra"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
@@ -151,19 +149,19 @@ author:
     #   # url: "https://instagram.com/"
 
 # Site Footer
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Email"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    # - label: "GitLab"
-    #   icon: "fab fa-fw fa-gitlab"
+# footer:
+#   links:
+#     - label: "LinkedIn"
+#       icon: "fab fa-fw fa-twitter-square"
+#       # url:
+#     - label: "Email"
+#       icon: "fab fa-fw fa-facebook-square"
+#       # url:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       # url:
+#     - label: "Google Scholar"
+#       icon: "fab fa-fw fa-google-scholar"
     #   # url:
     # - label: "Bitbucket"
     #   icon: "fab fa-fw fa-bitbucket"
@@ -327,11 +325,11 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
-      layout: single
+      layout: home
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      # read_time: true
+      # comments: # true
+      # share: true
+      # related: true

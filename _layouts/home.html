@@ -6,6 +6,12 @@ layout: archive
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
+<!-- Custom Link for Your Paper -->
+<div class="custom-link" style="margin-bottom: 1rem;">
+  <a href="https://arxiv.org/abs/2412.07057" style="font-weight: bold; font-size: 0.9rem;">
+    📝 A Note on Sample Complexity of Interactive Imitation Learning with Log Loss
+  </a>
+</div>
 {% if paginator %}
   {% assign posts = paginator.posts %}
 {% else %}
