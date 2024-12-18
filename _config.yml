@@ -110,8 +110,11 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-
+# remove author 
+show_author: false
+author_profile: false
 # Site Author
+
 author:
   name             : "Yichen Li"
   avatar           : "/assets/images/profile.jpg"
